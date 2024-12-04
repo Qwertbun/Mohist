@@ -64,7 +64,7 @@ public class MohistMCStart {
             System.out.printf("%n%s%n%s - %s, Java(%s) %s PID: %s%n",
                     Logo.asMohist(),
                     i18n.as("mohist.launch.welcomemessage"),
-                    getVersion(),
+                    /*getVersion(),*/
                     System.getProperty("java.class.version"),
                     System.getProperty("java.version"),
                     ManagementFactory.getRuntimeMXBean().getName().split("@")[0]
